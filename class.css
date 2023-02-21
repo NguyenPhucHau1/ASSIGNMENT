@@ -1,0 +1,343 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.chat{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+.go{
+   background-color: rgb(237, 24, 70);
+   width: auto;
+   height: 45px;
+}
+.goo{
+    margin-left: 160px;
+}
+.menu-top{
+    background: rgb(255, 212, 0);
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 60px;
+    position: relative;
+    list-style-type: none;
+}
+.menu-top>li>{
+    display: inline-block;
+    background: rgb(255, 187, 6);
+    width: 100px;
+    height: 40px;
+}
+    
+.menu-top>li>a{
+    display: block ;
+    text-decoration: none;
+    padding-left: 0px;
+}
+.menu-top>li>a:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.menu-top>.logo{
+    position: absolute;
+    padding-left:160px ;
+}
+
+.mot{
+    background:rgb(255, 187, 6);
+    display: nome;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    width: 110px;
+    height: 40px;
+    font-size: 12px; 
+    border-radius: 5px; 
+    line-height: 15px;
+}
+.mot>a{
+    padding-top: 5px;
+    margin: 0px 3px;
+    color: black;
+}
+.hai{
+    position: absolute;
+    top: 13px;
+    left: 550px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+.ba{
+    background:rgb(255, 187, 6);
+    display: nome;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+    width: 90px;
+    height: 40px;
+    font-size: 12px; 
+    border-radius: 5px; 
+    line-height: 15px;
+}
+.ba>a{
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    right: 4px;
+    text-align: center;
+    color: black;
+}
+.bon{
+    background:rgb(255, 187, 6);
+    display: nome;
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+    width: 90px;
+    height: 40px;
+    font-size: 12px; 
+    border-radius: 5px; 
+    line-height: 15px;
+}
+.bon>a{
+    position: absolute;
+    top: 5x;
+    left: 7px;
+    right: 4px;
+    text-align: center;
+    color: black;
+}
+.nam{
+
+    border-right: 2px white; 
+    position: absolute;
+    top: 15px;
+    left: 1100px;
+    width: 90px;
+    height: 40px;
+    font-size: 14px; 
+    border-radius: 5px; 
+    line-height: 15px;
+}
+.nam>a{
+    position: absolute;
+    top: 5x;
+    left: 7px;
+    right: 4px;
+    text-align: center;
+    color: black;
+}
+.sau{
+    position: absolute;
+    top: 20px;
+    left: 1190px;
+    width: 90px;
+    height: 40px;
+    font-size: 14px; 
+    border-radius: 5px; 
+    line-height: 15px;
+}
+.sau>a{
+    position: absolute;
+    top: 5x;
+    left: 7px;
+    right: 4px;
+    text-align: center;
+    color: black;
+}
+.bay{
+    position: absolute;
+    top: 8px;
+    left: 1280px;
+    width: 90px;
+    height: 40px;
+    font-size: 14px; 
+    border-radius: 5px; 
+    line-height: 15px;
+}
+.bay>a{
+    position: relative;
+    display: block;
+    top: 5x;
+    left: 7px;
+    right: 4px;
+    text-align: center;
+    color: black;
+}
+.socxanh{
+    background-color: aqua;
+    width: auto;
+    height: 15px;
+}
+.thuong-hieu{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+.thuong-hieu a{
+    padding-left: 21px;
+}
+.thuong-hieu>a:hover img{
+    transform: scale(1.1);
+}
+.loai{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+.loai a{
+    padding-left: 30px;
+    
+}
+.loai>a:hover img{
+    transform: scale(1.1);
+}
+.kc{
+    background-color: white;
+    height: 60px;
+}
+.trang{
+    background-color: rgb(246, 112, 203);
+    height: 30px;
+}
+.trang>a{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.trang>a:hover{
+    color:white;
+    font-weight: bold;
+
+}
+.nen{
+    background-color: rgb(246, 112, 203);
+}
+.khungnen>.new-icon{
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.khungnen{
+    background-color: rgb(246, 112, 203);
+    margin-left: 5%;
+    height: 340px;
+    width: 90%;
+    position: relative;
+}
+.san-pham{
+    left: 20px;
+    top: 20px;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+}
+.chu{
+    text-decoration: none;
+}
+.san-pham-2{
+    left: 245px;
+    top: 20px;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+}
+.san-pham-3{
+    left: 470px;
+    top: 20px;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+}
+.san-pham-4{
+    left: 695px;
+    top: 20px;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+}
+.san-pham-5{
+    left: 920px;
+    top: 20px;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+}
+.san-pham-6{
+    left: 1145px;
+    top: 20px;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+}
+.khungnen>div>a:hover{
+    color: red;
+    transform: (1.2);
+}
+.end{
+    text-align: center;
+    position: relative;
+}
+.end>ul{
+    display: inline-block;
+    padding-right: 30px;
+    margin-right: 100px;
+    
+}
+.end>ul>li>a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.end>.tgdd{
+    position: absolute;
+    top: 45px;
+}
+.end>ul>li>a:hover{
+    color: red;
+}
+.khungnen>.to:hover img{
+    transform: (1.1);
+}
+.sub-menu{
+    position: absolute;
+    width: 75%;
+    background-color: rgb(255, 212, 0);
+    height: 60px;
+    list-style-type: none;
+    
+    display: none;
+    color: white;
+}
+.sub-menu li{
+    padding: 0 ;
+    margin-left: -40px ;;
+    height: 30px;
+    
+}
+.sub-menu>li>a{
+    color: black;
+    text-decoration: none;
+    margin-left: 22px;   
+}
+.sub-menu>li>a:hover{
+    color: white;
+    text-decoration: none;       
+}
+.menu-top li:hover .sub-menu{
+    display: block;
+}
+.khungnen>a:hover img{
+    transform: (1.1);
+}

@@ -1,0 +1,59 @@
+.nen{ 
+    position: relative;
+    top: 0px;
+    
+}
+.nenDN{
+    position: absolute;
+    top: 170px;
+    left: 530px;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.kc{
+    height: 10px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+.dangnhap{
+    padding-top: 10px;
+    background-color: blue;
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+}
+.dangnhap a{
+    color: black;
+    text-decoration: none;
+}
+.dangnhap a:hover{
+    transform: (1.1);
+    color: red;
+}
+.GG{
+    background-color:khaki;
+    width: 200px;
+    border-radius: 10px;
+    border: red;
+}
+.GG a{
+    text-decoration: none;
+}
+.GG a h3:hover{
+    color: yellow;
+    transform: (1.1);
+    box-shadow:0 0 5px gray;
+}
+h3{
+    color: white;
+}
+h2{
+    font-size: 25px;
+    box-shadow:0 0 5px gray;
+}
